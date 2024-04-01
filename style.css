@@ -1,0 +1,428 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');*/
+@font-face{
+    font-family: 'ghhh';
+    src:url(Changa/Changa-VariableFont_wght.ttf);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+     
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background-color:red;
+}
+.top .left .l1 img{
+    width: 40px;
+    height:40px;
+}
+.top .left .l2 img{
+    width: 40px;
+    height: 40px;
+}
+.top .right .l4 img{
+    width: 40px;
+    height: 40px;
+
+}
+.top .right .l5 img{
+    width: 40px;
+    height: 40px;
+}
+.top .left .l6 img{
+    width: 40px;
+    height: 40px;
+}
+.top .right .l7 img{
+    width: 40px;
+    height: 40px;
+}
+.top .left{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 38px;
+}
+.top .right{
+    display: flex;
+    margin-right: 90px;
+    margin-top: 38px;
+}
+.top .right .l5{
+    margin-left: 20px;
+}
+.top .right .l7{
+    margin-left: 20px;
+}
+.top .left .l6 {
+    margin-left: 17px;
+}
+.top .center{
+    margin-top: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav1{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.nav1 ul{
+    display: flex;
+    text-align: right;
+    direction: rtl;
+    padding-top: 40px;
+    padding-right: 12%;
+}
+.nav1 ul li{
+    margin-left: 60px;  
+    position: relative;
+}
+.nav1 ul li a{
+    /*font-family: "Changa", sans-serif;*/
+    font-family: "ghhh",sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size:medium;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.nav1 ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 14px;
+    /*transition: all 0.3s ease;*/
+
+}
+/*.drop_menu1{
+    display: none;
+}*/
+
+.drop_menu1{
+    width: 250px;
+    height: 215px;
+    display: block;
+    position: absolute;
+    top:35px;
+    background-color: black;
+}
+.drop_menu1{
+    display: none;
+}
+.drop_menu1 ul{
+    display: block;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    list-style: none;
+
+}
+.drop_menu1 ul li{
+    margin-bottom: 10px;
+
+}
+.drop_menu1 ul li a:hover{
+    background: none;
+    color:red;
+}
+.nav1 ul .l2:hover .drop_menu1{        /*-------------------------------------------------*/
+    display: block;
+
+
+}
+.drop_menu2{
+    width: 250px;
+    height: 175px;
+    display: block;
+    position: absolute;
+    top: 35px;
+    background-color: black;
+}
+.drop_menu2{
+    display: none;
+}
+.drop_menu2 ul{
+    display: block;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.drop_menu2 ul li{
+    margin-bottom: 10px;
+}
+.drop_menu2 ul li a:hover{
+    background: none;
+    color: red;
+}
+.nav1 ul .l3:hover .drop_menu2{
+    display: block;
+}
+.drop_menu3{
+    width: 250px;
+    height: 130px;
+    display: block;
+    position: absolute;
+    top:35px;
+    background-color: black;
+}
+.drop_menu3{
+    display: none;
+}
+.drop_menu3 ul{
+    display: block;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.drop_menu3 ul li{
+    margin-bottom: 10px;
+}
+.drop_menu3 ul li a:hover{
+    background: none;
+    color: red;
+}
+.nav1 ul .l6:hover .drop_menu3{
+    display: block;
+}
+/*.MySlide{
+    display: none;
+}*/
+.slide_image{
+    margin-bottom: -10px;
+}
+.slide_image .MySlide img{
+    width: 100%;
+}
+
+.fleche1 ,.fleche2{
+    cursor: pointer;
+    position:absolute;
+    top:87%;
+    width: auto;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.4s ease;
+    border-radius: 3px;
+}
+.fleche2{
+    right: 0;
+}
+.fleche1:hover, .fleche2:Hover{
+    background-color:red;
+}
+.slide_image .MySlide .number{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top:37%;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.slide_image .MySlide .circle{
+    cursor: pointer;
+
+}
+.produit_container{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top:151%;
+}
+.title1{
+    font-family: "ghhh",sans-serif;
+    margin-left: 40% ;
+    color:white;
+}
+.ligne1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ligne1 .produit {
+    width: 280px;
+    height: 360px;
+    background-color:none;
+}
+.ligne1 .produit img{
+    width: 180px;
+    height: 210px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.ligne1 .produit .produit_titre{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.ligne1 .produit .produit_prix{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+/*.ligne1 .produit .cart{
+    background-color: red;
+    width: 165px;
+    height: 50px;
+    margin-left: 13px;
+    border-radius: 6px;
+}*/
+/*.ligne1 .produit .cart h3{
+   font-family: "ghhh",sans-serif;
+    color:white;
+    padding-left: 17px;
+    padding-top: 8px;
+    font-weight: 500;
+    text-decoration: none;} 
+*/
+.ligne1 .produit a{
+    text-decoration: none;
+}
+.produit_container h1{
+    margin-bottom: 40px;
+}
+.ligne1 .produit button{
+    background-color: red;
+    width: 165px;
+    height: 50px;
+    margin-left: 13px;
+    border-radius: 6px;
+}
+.ligne1 .produit button h3{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 0px;
+    padding-top: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ligne1 .produit button:hover{
+    cursor: pointer;
+}
+ /*-----------------------------------------------------*/
+.title2{
+    font-family: "ghhh",sans-serif;
+    margin-left: 40% ;
+    color:white;
+}
+.ligne2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ligne2 .produit {
+    width: 280px;
+    height: 360px;
+    background-color:none;
+}
+.ligne2 .produit img{
+    width: 180px;
+    height: 210px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.ligne2 .produit .produit_titre{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.ligne2 .produit .produit_prix{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+.ligne2 .produit button{
+    background-color: red;
+    width: 165px;
+    height: 50px;
+    margin-left: 13px;
+    border-radius: 6px;
+}
+.ligne2 .produit button h3{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 0px;
+    padding-top: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ligne2 .produit button:hover{
+    cursor: pointer;
+}
+/*.ligne2 .produit a{
+    text-decoration: none;
+}*/
+.produit_container h1{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/* ------------------------------------------------------------------------*/
+
+  .footer {
+    background-color: black;
+    color: #fefefe;
+    position: absolute;
+    width: 100%;
+    top:306%;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+  
+  .footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    /*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
+    /*font-family:Arial, Helvetica, sans-serif ;*/
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  

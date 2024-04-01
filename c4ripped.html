@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MiniProjetL3</title>
+        <style>
+ @font-face{
+font-family: 'ghhh';
+src:url(Changa/Changa-VariableFont_wght.ttf);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+     
+}
+.image_2 img{
+    width: 100%;
+    height: auto;
+}
+.top{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background-color:red;
+}
+.top .left .l1 img{
+    width: 40px;
+    height:40px;
+}
+.top .left .l2 img{
+    width: 40px;
+    height: 40px;
+}
+.top .right .l4 img{
+    width: 40px;
+    height: 40px;
+
+}
+.top .right .l5 img{
+    width: 40px;
+    height: 40px;
+}
+.top .left .l6 img{
+    width: 40px;
+    height: 40px;
+}
+.top .right .l7 img{
+    width: 40px;
+    height: 40px;
+}
+.top .left{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 38px;
+}
+.top .right{
+    display: flex;
+    margin-right: 90px;
+    margin-top: 38px;
+}
+.top .right .l5{
+    margin-left: 20px;
+}
+.top .right .l7{
+    margin-left: 20px;
+}
+.top .left .l6 {
+    margin-left: 17px;
+}
+.top .center{
+    margin-top: 38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container_produit1{
+    margin: 20px 200px;
+    display: flex;
+}
+.right_image img{
+    width: 360px;
+    height: 500px;
+    display: flex;
+    border: 3px solid red;
+    border-radius: 15px;
+    cursor: zoom-in;
+}
+.container_produit1 .details_produit1{
+    position: absolute;
+    left: 45%;
+}
+.container_produit1 .details_produit1 h1,p,h2,table,a{
+    margin-bottom: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container_produit1 .details_produit1 table tr td input{
+    width: 100px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-left: 30px;
+}
+/*.container_produit1 .details_produit1 a .cart{
+    background-color: red;
+    width: 165px;
+    height: 50px;
+    margin-left: 13px;
+    border-radius: 6px;
+}
+.container_produit1 .details_produit1 a  h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    padding-left: 30px;
+    padding-top: 12px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.container_produit1 .details_produit1 a{
+    text-decoration: none;
+}*/
+.container_produit1 .details_produit1 button{
+    background-color: red;
+    width: 165px;
+    height: 50px;
+    margin-left: 13px;
+    border-radius: 6px;
+}
+.container_produit1 .details_produit1 button h3{
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding-left: 0px;
+    padding-top: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.container_produit1 .details_produit1 button:hover{
+    cursor: pointer;
+}
+
+
+ </style>
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <div class="left">
+                    <div class="l1"><img src="p1.jpg.png"></div>
+                    <div class="l2"><img src="p2.jpg.png"></div>
+                    <div class="l6"><img src="p5.jbg.png"></div>
+                </div>
+                <div class="center">
+                    <div class="l3"><h1>BeHealthyDZ</h1></div>
+                </div>
+                <div class="right">
+                    <div class="l4"><img src="p3.jpg.png"></div>
+                    <div class="l5"><img src="p4.jpg.png"></div>
+                    <div class="l7"><img src="p6.jpg.png"></div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container_produit1">
+            <div class="right_image">
+                <img src="téléchargement (5).webp">
+            </div>
+            <div class="details_produit1">
+                <h1>C4 Ripped</h1>
+                <p>disponible</p>
+                <h2>9000 DA</h2>
+                <table>
+                    <tr>
+                    <td>Quantite</td>
+                    <td id="Quantite"><input type="number"></td>
+                    </tr>
+                </table>
+                <h2>Description</h2>
+                <p>
+                    Une énergie explosive, une concentration accrue et une envie irrésistible de relever n'importe quel défi... c'est l'expérience C4. Des millions de personnes, des débutants aux compétiteurs d'élite,
+                     se sont appuyées sur le pré-entraînement C4 pour les aider à transformer leurs ambitions en réalisations.
+                    En tant que pré-entraînement le plus vendu en Amérique, le pré-entraînement C4 Original est à la hauteur de sa solide réputation avec une formule classique pour une énergie,
+                     une endurance, une concentration et des pompes avancées ! Mais avec un nouveau design de bouteille et des options de saveurs plus délicieuses parmi lesquelles choisir,
+                      vous aurez l'impression que c'est la toute première fois que vous expérimentez le pré-entraînement C4 que vous connaissez et aimez.
+                </p>
+                <button><h3>add to cart</h3></button>
+            </div>
+
+        </div>
+
+    </body>
+</html>
